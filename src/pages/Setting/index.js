@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native'
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
 import axios from 'axios'
 
 
 
-const Setting = () => {
+const Setting = ({navigation}) => {
   const [photo, setPhoto] = useState(null)
 
   const handleSelectPhoto = ()=>{
@@ -44,6 +44,12 @@ const Setting = () => {
       setPhoto(result)
     })
   }
+  useEffect(()=>{
+    const unsubscribe = navigation.addListener('focus', () => {
+      alert("helo bro...")
+    });
+    return unsubscribe
+  }, [navigation])
 
   return (
     <View>
