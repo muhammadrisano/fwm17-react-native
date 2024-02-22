@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998158735428",
+    "project_id": "peword-app",
+    "storage_bucket": "peword-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998158735428:android:d28b3f68ebe98b361ec411",
+        "android_client_info": {
+          "package_name": "com.awesomeproject2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90e-uo8nYrOBZrpAzirAB2rFGUWo-y5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

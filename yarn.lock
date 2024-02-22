@@ -4140,7 +4140,7 @@ internal-slot@^1.0.5, internal-slot@^1.0.7:
     hasown "^2.0.0"
     side-channel "^1.0.4"
 
-invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5949,6 +5949,13 @@ react-native-image-picker@^7.1.0:
   version "7.1.0"
   resolved "https://registry.npmjs.org/react-native-image-picker/-/react-native-image-picker-7.1.0.tgz"
   integrity sha512-An0hn2mwqjGAA2mbsXdHRTyoMMklGPT9stIjE2zvkegU7CdoFhowqvVHfnELJNZnfAiSQuIaeY//z0r1R0lsgw==
+
+react-native-onesignal@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.npmjs.org/react-native-onesignal/-/react-native-onesignal-5.0.6.tgz"
+  integrity sha512-P6HVBY3Hu2p2wzKYSCOwUH1ESxEDKpx7wFvTnWCAyMqOc9y1JstASVvoFqDwwuvLBNFmuFkSVXQ7VdsqzTRcQg==
+  dependencies:
+    invariant "^2.2.2"
 
 react-native-safe-area-context@^4.9.0, "react-native-safe-area-context@>= 3.0.0":
   version "4.9.0"
